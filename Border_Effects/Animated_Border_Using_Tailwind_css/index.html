@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- -->
+    <!-- -->
+    <style type="text/tailwindcss">
+    @layer utilities{
+    .box::before{
+        @apply content-[''] absolute
+        bg-[conic-gradient(#04b0ee_20deg,transparent_120deg)] w-[300px] h-[300px] top-[-25%] left-[-25%] animate-fullSpin
+    }
+    .box::after{
+        @apply content-['AAG'] text-white w-[94%] h-[94%] bg-[#020223] absolute top-[3%] left-[3%] flex justify-center items-center uppercase tracking-[2px] font-medium
+    }
+    
+    }
+    </style>
+    <!-- -->
+    <!-- -->
+    <script>
+        tailwind.config={
+            theme: {
+                extend: {
+                    keyframes:{
+                        fullSpin:{
+                            '100%':{
+                                transform:'rotate(-360deg)'
+                            }
+                        }
+                    },
+                    animation:{
+                        fullSpin:'fullSpin 3s linear infinite'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<!-- -->
+<!-- -->
+<body class="bg-[#001128]">
+    <div class="flex justify-center items-center h-screen">
+    <div class="relative w-[200px] h-[200px] bg-[#020223] box overflow-hidden">
+
+    </div>
+</div>
+    
+    
+</body>
+</html>
