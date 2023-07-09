@@ -74,6 +74,8 @@ body {
 	font-size: 80px;
 	text-transform: uppercase;
 	letter-spacing: 12px;
+	align-items: center;
+	justify-content: center;
 }
 @keyframes animate {
 	0% {
