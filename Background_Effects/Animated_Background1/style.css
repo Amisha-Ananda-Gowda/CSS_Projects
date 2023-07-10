@@ -9,7 +9,7 @@ body {
 	width: 50px;
 	z-index: -1;
 	background-color: #18191f;
-	box-shadow: 0 0 50px #ff00c3, 0 0 100px #ff00c3, 0 0 150px #ff00c3, 0 0 200px #ff00c3;
+	box-shadow: 0 0 50px #ff006a, 0 0 100px #ff006a 0 0 150px #ff006a 0 0 200px #ff006a;
 	animation: animate 10s linear infinite;
 }
 .wrapper span:nth-child(1) {
