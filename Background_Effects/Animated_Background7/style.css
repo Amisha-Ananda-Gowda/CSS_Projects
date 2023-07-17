@@ -13,7 +13,7 @@ html, body {
 	left: 0;
 	opacity: 0;
     animation: animate 5s infinite linear;
-	background: radial-gradient(#9a0c9f, #ff00c3);
+	background: radial-gradient(#ff0000, #ff00c3);
 	border-radius: 100%;
 }
 
