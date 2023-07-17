@@ -6,7 +6,7 @@ body {
 	overflow: hidden;
 }
 .content {
-	background: linear-gradient(to bottom, #ff512f, #e61e78);
+	background: linear-gradient(to bottom, #e3492a, #e61e78);
 	height: 100vh;
 }
 .content h1 {
