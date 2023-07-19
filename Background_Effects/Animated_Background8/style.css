@@ -7,7 +7,7 @@ body {
 }
 .header {
 	z-index: 1;
-	background: linear-gradient(-45deg, rgb(255, 0, 157), rgb(23, 204, 35), rgb(0, 217, 255), yellow);
+	background: linear-gradient(-45deg, rgb(255, 0, 157), rgb(23, 204, 35), rgb(0, 217, 255), rgb(247, 0, 255));
 	background-size: 400% 400%;
 	width: 100%;
 	height: 100vh;
