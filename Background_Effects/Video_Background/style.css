@@ -15,4 +15,12 @@
     object-fit: cover;
     z-index: -1;
   }
-  
+  h1{
+color:rgb(212, 255, 0);
+margin-top: 45%;
+  }
+  div{
+    display:flex;
+   
+    justify-content: center;
+  }
